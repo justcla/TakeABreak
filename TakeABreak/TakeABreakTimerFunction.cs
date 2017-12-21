@@ -11,7 +11,7 @@ namespace TakeABreak
         /// <summary>
         ///  Trigger Chron format: (seconds minutes hours days months years)
         ///  ie. ("0 */15 6-20 * * *") = Every 15 minutes, between 06:00 AM and 08:59 PM
-        //       ("0 0 0-5,21-23 * * *") = Every hour from 12:00 AM to 06:00 AM and 09:00 PM to 12:00 AM
+        ///      ("0 0 0-5,21-23 * * *") = Every hour from 12:00 AM to 06:00 AM and 09:00 PM to 12:00 AM
         /// </summary>
         [FunctionName("TakeABreakTimerFunction")]
         public static async Task Run([TimerTrigger("*/5 * * * * *")]TimerInfo myTimer, TraceWriter log)
