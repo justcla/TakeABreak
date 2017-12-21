@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "SlackbotUrl": "https://slack.com/api/chat.postMessage",
+    "SlackOAuthToken": "xoxp-286789351719-285862086341-285838821188-3b9c8a0f7a37b39afd7a99687f65d0ac",
+    "ChannelsToNotify": "C8DJZ7KR9"
+  }
+}

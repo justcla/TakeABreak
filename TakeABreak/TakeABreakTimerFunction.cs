@@ -22,7 +22,6 @@ namespace TakeABreak
         }
 
         private static async Task SendMessage(string message, TraceWriter log)
-
         {
             string channelsToNotify = Env("ChannelsToNotify");
             string slackbotUrl = Env("SlackbotUrl");
